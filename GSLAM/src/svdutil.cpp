@@ -40,6 +40,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include <netinet/in.h>
 #include "svdlib.hpp"
 #include "svdutil.hpp"
+#include <cblas.h>
 
 #define BUNZIP2  "bzip2 -d"
 #define BZIP2    "bzip2 -1"

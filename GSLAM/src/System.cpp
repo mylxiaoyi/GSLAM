@@ -331,9 +331,9 @@ namespace GSLAM{
         trackingContext->min_eigenvalue=100;
         trackingContext->mindist=10;
         
-        trackingContext->writeInternalImages = FALSE;
-        trackingContext->affineConsistencyCheck = FALSE;
-        trackingContext->lighting_insensitive=FALSE;
+        trackingContext->writeInternalImages = false;
+        trackingContext->affineConsistencyCheck = false;
+        trackingContext->lighting_insensitive=false;
         
         trackingContext->window_width=21;
         trackingContext->window_height=21;

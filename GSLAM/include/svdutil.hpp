@@ -33,7 +33,8 @@ POSSIBILITY OF SUCH DAMAGE.
 #define SVDUTIL_H
 
 #include "svdlib.hpp"
-#include <Accelerate/Accelerate.h>
+#include <stdio.h>
+//#include <Accelerate/Accelerate.h>
 
 #define SAFE_FREE(a) {if (a) {free(a); a = NULL;}}
 #define USE_BLAS
